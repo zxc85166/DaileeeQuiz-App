@@ -19,7 +19,7 @@ const app = Vue.createApp({
             c: "믿음 - 저곳을 - 구름",
             d: "희망 - 이곳을 - 별빛",
           },
-          correctAnswer: "b",
+          correctAnswer: "d",
         },
         {
           srcimg:
@@ -31,7 +31,7 @@ const app = Vue.createApp({
             c: "게시글을 올린 멤버는 '조아'이다.",
             d: "게시글에 '데일리'라는 단어가 들어가 있다.",
           },
-          correctAnswer: "d",
+          correctAnswer: "c",
         },
         {
           srcimg:
@@ -55,7 +55,7 @@ const app = Vue.createApp({
           question:
             "5. 1theK<키워드 조작단>에 제시된'소은'의 키워드로 옳지 않은 것을 고르시오.",
           answers: { a: "언니킬러", b: "보조개", c: "만능캐", d: "푹주기관차" },
-          correctAnswer: "b",
+          correctAnswer: "d",
         },
         {
           srcimg:
@@ -63,7 +63,7 @@ const app = Vue.createApp({
           question:
             "6. 2020년 9월 17일 V LIVE<도전스케치 퀴즈!🖌(출제자:지유니,째희)>에서 '지윤'이 그림의 제시어를 고르시오.",
           answers: { a: "소금", b: "아이디어", c: "얼룩말", d: "포크레인" },
-          correctAnswer: "b",
+          correctAnswer: "c",
         },
         {
           srcimg:
@@ -84,7 +84,7 @@ const app = Vue.createApp({
             c: "WE ARE FAMILY",
             d: "WE ARE NEIGHBOR",
           },
-          correctAnswer: "b",
+          correctAnswer: "c",
         },
         {
           srcimg:
@@ -92,7 +92,7 @@ const app = Vue.createApp({
           question:
             "9. 2020년 7월 2일 Mnet<엠카운다운> 'Tag Me(@Me)'데뷔 무대의 이름으로 올바른 것을 고르시오.",
           answers: { a: "이수진", b: "지한", c: "조아", d: "먼데이" },
-          correctAnswer: "b",
+          correctAnswer: "a",
         },
         {
           srcimg:
@@ -100,31 +100,36 @@ const app = Vue.createApp({
           question:
             "10. 1theK<이번 생은 처음> EP.2 에서'2층 침대'팀이 만난 돌물'라쿤'의 이름으로 올바른 것을 고르시오.",
           answers: { a: "초코", b: "보리", c: "모카", d: "라떼" },
-          correctAnswer: "b",
+          correctAnswer: "d",
         },
         {
           srcimg:
             "https://pbs.twimg.com/media/E5r4zDkVEAMiBuX?format=png&name=small",
           question:
-            "11. 다음<weee:kloud> 장면 속 자막으로 들어갈 단어를 작성하시오.(주관식)",
-          answers: { a: "언니킬러", b: "보조개", c: "만능캐", d: "푹주기관차" },
-          correctAnswer: "b",
+            "11. 다음<weee:kloud> 장면 속 자막으로 들어갈 단어를 작성하시오.",
+          answers: {
+            a: "위클라우드",
+            b: "보조개",
+            c: "만능캐",
+            d: "푹주기관차",
+          },
+          correctAnswer: "a",
         },
         {
           srcimg:
             "https://pbs.twimg.com/media/E5r5AdYVIAkWqxC?format=png&name=small",
           question:
-            "12. 다음<주간연습실> 장면 속 가위바위보 게임에서 이긴 멤버의 이름을 작성하시오.(주관식)",
-          answers: { a: "언니킬러", b: "보조개", c: "만능캐", d: "푹주기관차" },
+            "12. 다음<주간연습실> 장면 속 가위바위보 게임에서 이긴 멤버의 이름을 작성하시오.",
+          answers: { a: "이수진", b: "지한", c: "조아", d: "먼데이" },
           correctAnswer: "b",
         },
         {
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
           question:
-            "13. 다음은 각 멤버의 생년월일로, 빈 칸에 들어갈 숫자의 합을 구하시오. (주관식)",
-          answers: { a: "언니킬러", b: "보조개", c: "만능캐", d: "푹주기관차" },
-          correctAnswer: "b",
+            "13. 다음은 각 멤버의 생년월일로, 빈 칸에 들어갈 숫자의 합을 구하시오. ",
+          answers: { a: "14056", b: "13182", c: "14176", d: "15716" },
+          correctAnswer: "c",
         },
       ],
     };

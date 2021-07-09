@@ -10,7 +10,7 @@ const app = Vue.createApp({
       questions: [
         {
           srcimg:
-            "https://pbs.twimg.com/media/E5r3d1PVoA4oEzb?format=png&name=small",
+            "https://pbs.twimg.com/media/E52mNyVVgAUFO7V?format=png&name=small",
           question: "1. 請閱讀下面文章 選擇正確羅列順序的 ㄅ-ㄆ-ㄇ 單字",
           answers: {
             a: "幸福 - 那裡 - 月光",
@@ -35,7 +35,7 @@ const app = Vue.createApp({
         {
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
-          question: "3. 請選出從Weeekly出道開始第100天是星期幾",
+          question: "3. 請選出從Weeekly出道後第100天是星期幾",
           answers: { a: "週一", b: "週三", c: "週五", d: "週日" },
           correctAnswer: "b",
         },
@@ -66,7 +66,7 @@ const app = Vue.createApp({
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
           question:
-            "7. 請選擇下列Weeekly CP中同時包含的成員:1.강토즈 2.설탕즈 3.공사장 4.짠소금",
+            "7. 請選擇下列Weeekly CP中同時包含的成員:1.강토즈(狗兔s) 2.설탕즈(白糖s) 3.공사장(工地/04讚) 4.짠소금(鹹鹽巴)",
           answers: { a: "李在希", b: "Jihan", c: "朴昭垠", d: "Zoa" },
           correctAnswer: "b",
         },
@@ -74,7 +74,7 @@ const app = Vue.createApp({
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
           question:
-            "8. 請選擇Weeekly的Good NEIGHBORS<世界家庭日>紀念慈善畫報中團體照片中的在氣球上所寫的句子",
+            "8. 請選擇Weeekly的Good Neighbors<世界家庭日>紀念慈善畫報中團體照片中的在氣球上所寫的句子",
           answers: {
             a: "WE ARE WEEEKLY",
             b: "WE ARE FRIEND",
@@ -95,7 +95,7 @@ const app = Vue.createApp({
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
           question:
-            "10. 1theK<今生第一次> EP.2中'上層床'組遇到的動物'浣熊'的名字，請選擇正確的選項",
+            "10. 1theK<今生第一次> EP.2 中'2樓'組遇到的動物'浣熊'的名字，請選擇正確的選項",
           answers: { a: "Choco", b: "Bori", c: "Moca", d: "Latte" },
           correctAnswer: "d",
         },
@@ -121,9 +121,8 @@ const app = Vue.createApp({
         },
         {
           srcimg:
-            "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
-          question:
-            "13. 以下是各成員的出生年月日，求空格數之和 李受珍: 0000년 00월 00일 Monday: 0000년 00월 00일 Jihan: 0000년 00월 00일 申智阭: 0000년 00월 00일 朴昭垠: 0000년 00월 00일 Zoa: 0000년 00월 00일 李在希: 0000년 00월 00일",
+            "https://pbs.twimg.com/media/E52pxk1VIAQGQ4Z?format=png&name=small",
+          question: "13. 以下是各成員的出生年月日，求空格數之和",
           answers: { a: "14056", b: "13182", c: "14176", d: "15716" },
           correctAnswer: "c",
         },

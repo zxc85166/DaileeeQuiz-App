@@ -66,7 +66,7 @@ const app = Vue.createApp({
           srcimg:
             "https://pbs.twimg.com/media/E5r5b0wVcAIM7sF?format=png&name=120x120",
           question:
-            "7. 請選擇下列Weeekly CP中同時包含的成員:1.강토즈(狗兔s) 2.설탕즈(白糖s) 3.공사장(工地/04讚) 4.짠소금(鹹鹽巴)",
+            "7. 請選擇下列Weeekly CP中同時包含的成員:1.강토즈(狗兔s) 2.설탕즈(白糖s) 3.공사장(工地) 4.짠소금(鹹鹽巴)",
           answers: { a: "李在希", b: "Jihan", c: "朴昭垠", d: "Zoa" },
           correctAnswer: "b",
         },

@@ -9,7 +9,7 @@ const app = Vue.createApp({
 
       questions: [
         {
-          srcimg: "../src/1.png",
+          srcimg: "./1.png",
           question: "1. 請閱讀下面文章 選擇正確羅列順序的 ㄅ-ㄆ-ㄇ 單字",
           answers: {
             a: "幸福 - 那裡 - 月光",
